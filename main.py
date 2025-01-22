@@ -3,7 +3,7 @@ class Library:
         self.books = listOfBooks
 
     def displayAvailableBooks(self):
-        print("Books present in this library are: ")
+        print("Books present in this library are the : ")
         for book in self.books: 
             print(" *" + book)
     
@@ -33,7 +33,7 @@ class Student:
 if __name__ == "__main__":
     centraLibrary = Library(["Algorithms", "Django", "Clrs", "Python Notes ", "c", "c++"])
     student = Student()
-    # centraLibrary.displayAvailableBooks()
+    # centraLibrary.displayAvailableBookss()
     while(True):
         welcomeMsg = '''\n ====== Welcome to Central Library ======
         Please choose an option:
